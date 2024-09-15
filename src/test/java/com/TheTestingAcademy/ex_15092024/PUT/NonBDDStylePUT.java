@@ -74,6 +74,7 @@ public class NonBDDStylePUT {
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
 
+
     }
 
 }
