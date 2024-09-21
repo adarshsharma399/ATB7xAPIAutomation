@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/adarshsharma/IdeaProjects/ATB7xAPIAutomatioPrograms"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.984">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_after_delete_request_get"
+                time="1.124"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration">
+            </testcase>
+            <testcase
+                name="test_delete_booking"
+                time="3.692"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration">
+            </testcase>
+            <testcase
+                name="test_update_request_get"
+                time="1.211"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration">
+            </testcase>
+            <testcase
+                name="test_update_request_put"
+                time="4.957"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration">
+            </testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/adarshsharma/IdeaProjects/ATB7xAPIAutomatioPrograms">
+        <groups>
+            <run>
+                <include name="qa"></include>
+                <exclude name="reg"></exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.TheTestingAcademy.ex_15092024.testng.Test001">
+                <methods>
+                    <include name="test_get"/></methods>
+            </class>
+        </classes>
+    </test>
+</suite>
