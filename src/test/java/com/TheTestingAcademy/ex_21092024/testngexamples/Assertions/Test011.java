@@ -64,7 +64,7 @@ public class Test011 {
 //        Assert.assertNotNull(bookingId);
 //        Assert.assertEquals(firstname,"Pramod");
 
-        // AssertJ Assertion
+        // AssertJ Assertion (https://assertj.github.io/doc/)
         assertThat(bookingId).isNotNull().isNotZero().isPositive();
         assertThat(firstname).isEqualTo("Pramod").isNotEmpty().isNotBlank();
         String s = ""; //Empty
