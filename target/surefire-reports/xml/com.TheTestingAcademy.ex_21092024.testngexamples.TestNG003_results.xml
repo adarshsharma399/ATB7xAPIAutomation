@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.003">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testPUTReq2"
+                time="0.001"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003">
+            </testcase>
+            <testcase
+                name="testPUTReq"
+                time="0.001"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003">
+            </testcase>
+            <testcase
+                name="testPUTReq3"
+                time="0.001"
+                classname="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003">
+            </testcase>
+</testsuite>

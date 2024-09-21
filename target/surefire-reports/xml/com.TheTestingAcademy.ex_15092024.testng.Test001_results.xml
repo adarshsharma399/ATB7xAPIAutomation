@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.001">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_get"
+                time="0.001"
+                classname="com.TheTestingAcademy.ex_15092024.testng.Test001">
+            </testcase>
+</testsuite>

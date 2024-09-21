@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 10 failed,  1 skipped,  22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="RegRun">RegRun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="RegRun2">RegRun2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="SmokeRun">SmokeRun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="SmokeRun3">SmokeRun3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008" class="method navigator-link" hash-for-method="demo1">demo1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012" class="method navigator-link" hash-for-method="hardAssertExample">hardAssertExample</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007" class="method navigator-link" hash-for-method="serverStartedOk">serverStartedOk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012" class="method navigator-link" hash-for-method="softAssertExample">softAssertExample</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001" class="method navigator-link" hash-for-method="testcase02">testcase02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_15092024.testng.Test003" class="method navigator-link" hash-for-method="demo5">demo5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.Test002" class="method navigator-link" hash-for-method="demo5">demo5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="sanityRun">sanityRun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006" class="method navigator-link" hash-for-method="sanityRun1">sanityRun1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005" class="method navigator-link" hash-for-method="t1">t1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005" class="method navigator-link" hash-for-method="t2">t2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005" class="method navigator-link" hash-for-method="t3">t3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009" class="method navigator-link" hash-for-method="test01">test01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010" class="method navigator-link" hash-for-method="test03">test03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009" class="method navigator-link" hash-for-method="test03">test03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003" class="method navigator-link" hash-for-method="testPUTReq">testPUTReq</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003" class="method navigator-link" hash-for-method="testPUTReq2">testPUTReq2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003" class="method navigator-link" hash-for-method="testPUTReq3">testPUTReq3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004" class="method navigator-link" hash-for-method="test_PUT">test_PUT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration" class="method navigator-link" hash-for-method="test_after_delete_request_get">test_after_delete_request_get</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration" class="method navigator-link" hash-for-method="test_delete_booking">test_delete_booking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_15092024.testng.Test001" class="method navigator-link" hash-for-method="test_get">test_get</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.Test001" class="method navigator-link" hash-for-method="test_get">test_get</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011" class="method navigator-link" hash-for-method="test_post">test_post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration" class="method navigator-link" hash-for-method="test_update_request_get">test_update_request_get</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration" class="method navigator-link" hash-for-method="test_update_request_put">test_update_request_put</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001" class="method navigator-link" hash-for-method="testcase01">testcase01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegRun">
+                  </a> <!-- RegRun -->
+                  <span class="method-name">RegRun</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.RegRun(TestNG006.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegRun2">
+                  </a> <!-- RegRun2 -->
+                  <span class="method-name">RegRun2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.RegRun2(TestNG006.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SmokeRun">
+                  </a> <!-- SmokeRun -->
+                  <span class="method-name">SmokeRun</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.SmokeRun(TestNG006.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SmokeRun3">
+                  </a> <!-- SmokeRun3 -->
+                  <span class="method-name">SmokeRun3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.SmokeRun3(TestNG006.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010.test01(TestNG010.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="serverStartedOk">
+                  </a> <!-- serverStartedOk -->
+                  <span class="method-name">serverStartedOk</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk(TestNG007.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase02">
+                  </a> <!-- testcase02 -->
+                  <span class="method-name">testcase02</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001.testcase02(TestNG001.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo1">
+                  </a> <!-- demo1 -->
+                  <span class="method-name">demo1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by @Test on method demo1 but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardAssertExample">
+                  </a> <!-- hardAssertExample -->
+                  <span class="method-name">hardAssertExample</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012.hardAssertExample(Test012.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssertExample">
+                  </a> <!-- softAssertExample -->
+                  <span class="method-name">softAssertExample</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012.softAssertExample(Test012.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.method1() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe depends on not successfully finished methods 
+[com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_post">
+                  </a> <!-- test_post -->
+                  <span class="method-name">test_post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanityRun">
+                  </a> <!-- sanityRun -->
+                  <span class="method-name">sanityRun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sanityRun1">
+                  </a> <!-- sanityRun1 -->
+                  <span class="method-name">sanityRun1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_15092024.testng.Test001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_get">
+                  </a> <!-- test_get -->
+                  <span class="method-name">test_get</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test03">
+                  </a> <!-- test03 -->
+                  <span class="method-name">test03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.Test001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_get">
+                  </a> <!-- test_get -->
+                  <span class="method-name">test_get</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo5">
+                  </a> <!-- demo5 -->
+                  <span class="method-name">demo5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPUTReq">
+                  </a> <!-- testPUTReq -->
+                  <span class="method-name">testPUTReq</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPUTReq2">
+                  </a> <!-- testPUTReq2 -->
+                  <span class="method-name">testPUTReq2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPUTReq3">
+                  </a> <!-- testPUTReq3 -->
+                  <span class="method-name">testPUTReq3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.Test002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo5">
+                  </a> <!-- demo5 -->
+                  <span class="method-name">demo5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="t1">
+                  </a> <!-- t1 -->
+                  <span class="method-name">t1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t2">
+                  </a> <!-- t2 -->
+                  <span class="method-name">t2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="t3">
+                  </a> <!-- t3 -->
+                  <span class="method-name">t3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_after_delete_request_get">
+                  </a> <!-- test_after_delete_request_get -->
+                  <span class="method-name">test_after_delete_request_get</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_delete_booking">
+                  </a> <!-- test_delete_booking -->
+                  <span class="method-name">test_delete_booking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_update_request_get">
+                  </a> <!-- test_update_request_get -->
+                  <span class="method-name">test_update_request_get</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_update_request_put">
+                  </a> <!-- test_update_request_put -->
+                  <span class="method-name">test_update_request_put</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_PUT">
+                  </a> <!-- test_PUT -->
+                  <span class="method-name">test_PUT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01">
+                  </a> <!-- test01 -->
+                  <span class="method-name">test01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test03">
+                  </a> <!-- test03 -->
+                  <span class="method-name">test03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase01">
+                  </a> <!-- testcase01 -->
+                  <span class="method-name">testcase01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.Test003&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.Test001&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.Test002&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_15092024.testng.Test003&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_15092024.testng.Test001&quot;/&gt;
+      &lt;class name=&quot;com.TheTestingAcademy.ex_15092024.testng.Test002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">dev</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SmokeRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SmokeRun3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">preprod</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">qa</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">reg</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegRun2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sanityRun1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">stage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SmokeRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SmokeRun3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_delete_booking')
+data.setCell(0, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration')
+data.setCell(0, 3, 3668);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_update_request_put')
+data.setCell(1, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration')
+data.setCell(1, 3, 3392);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_post')
+data.setCell(2, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011')
+data.setCell(2, 3, 1772);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_get')
+data.setCell(3, 2, 'com.TheTestingAcademy.Test001')
+data.setCell(3, 3, 1563);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_after_delete_request_get')
+data.setCell(4, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration')
+data.setCell(4, 3, 1159);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_update_request_get')
+data.setCell(5, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration')
+data.setCell(5, 3, 1151);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'RegRun')
+data.setCell(6, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(6, 3, 5);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test01')
+data.setCell(7, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcase01')
+data.setCell(8, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 't1')
+data.setCell(9, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'softAssertExample')
+data.setCell(10, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPUTReq2')
+data.setCell(11, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_PUT')
+data.setCell(12, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'demo5')
+data.setCell(13, 2, 'com.TheTestingAcademy.ex_15092024.testng.Test003')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPUTReq')
+data.setCell(14, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 't3')
+data.setCell(15, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_get')
+data.setCell(16, 2, 'com.TheTestingAcademy.ex_15092024.testng.Test001')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testPUTReq3')
+data.setCell(17, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'demo5')
+data.setCell(18, 2, 'com.TheTestingAcademy.Test002')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test03')
+data.setCell(19, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test03')
+data.setCell(20, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 't2')
+data.setCell(21, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'SmokeRun3')
+data.setCell(22, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'hardAssertExample')
+data.setCell(23, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testcase02')
+data.setCell(24, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'SmokeRun')
+data.setCell(25, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'RegRun2')
+data.setCell(26, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'sanityRun')
+data.setCell(27, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sanityRun1')
+data.setCell(28, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'demo1')
+data.setCell(29, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test01')
+data.setCell(30, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'serverStartedOk')
+data.setCell(31, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'method1')
+data.setCell(32, 2, 'com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007')
+data.setCell(32, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test02</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test02</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test002</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">demo1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">demo1</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test002</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">demo2</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">demo2</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getBookingID</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getTokenAndBookingID</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getToken</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_get</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_PUT</span>
+                <span class="method-start">1673 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegRun</span>
+                <span class="method-start">1676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegRun2</span>
+                <span class="method-start">1687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SmokeRun</span>
+                <span class="method-start">1690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SmokeRun3</span>
+                <span class="method-start">1693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanityRun</span>
+                <span class="method-start">1696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sanityRun1</span>
+                <span class="method-start">1698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">serverStartedOk</span>
+                <span class="method-start">1700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">1703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">t2</span>
+                <span class="method-start">1706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t1</span>
+                <span class="method-start">1708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">t3</span>
+                <span class="method-start">1711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testcase01</span>
+                <span class="method-start">1713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase02</span>
+                <span class="method-start">1716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_post</span>
+                <span class="method-start">1719 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">hardAssertExample</span>
+                <span class="method-start">3492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">softAssertExample</span>
+                <span class="method-start">3494 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPUTReq</span>
+                <span class="method-start">3497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPUTReq2</span>
+                <span class="method-start">3499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPUTReq3</span>
+                <span class="method-start">3501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test01</span>
+                <span class="method-start">3503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test03</span>
+                <span class="method-start">3504 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_update_request_put</span>
+                <span class="method-start">3506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_update_request_get</span>
+                <span class="method-start">6899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_delete_booking</span>
+                <span class="method-start">8052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_after_delete_request_get</span>
+                <span class="method-start">11721 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test01</span>
+                <span class="method-start">12881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test03</span>
+                <span class="method-start">12884 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">demo3</span>
+                <span class="method-start">12891 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">demo4</span>
+                <span class="method-start">12892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">demo5</span>
+                <span class="method-start">12901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">demo6</span>
+                <span class="method-start">12903 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">demo3</span>
+                <span class="method-start">12904 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test002</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">demo7</span>
+                <span class="method-start">12904 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">demo4</span>
+                <span class="method-start">12905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">demo5</span>
+                <span class="method-start">12906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">demo6</span>
+                <span class="method-start">12908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">demo7</span>
+                <span class="method-start">12909 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test001</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_get</span>
+                <span class="method-start">12909 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">demo8</span>
+                <span class="method-start">12911 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.Test002</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">demo8</span>
+                <span class="method-start">12911 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">demo9</span>
+                <span class="method-start">12952 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TheTestingAcademy.ex_15092024.testng.Test003</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">demo9</span>
+                <span class="method-start">12953 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

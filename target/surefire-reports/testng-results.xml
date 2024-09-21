@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="22" failed="10" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T21:40:27 IST" name="Surefire suite" finished-at="2024-09-21T21:40:40 IST" duration-ms="12898">
+    <groups>
+      <group name="qa">
+        <method signature="TestNG006.RegRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.RegRun2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun2" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.sanityRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.sanityRun1()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun1" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- qa -->
+      <group name="stage">
+        <method signature="TestNG006.SmokeRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="SmokeRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.SmokeRun3()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="SmokeRun3" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- stage -->
+      <group name="dev">
+        <method signature="TestNG006.SmokeRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="SmokeRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.SmokeRun3()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="SmokeRun3" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- dev -->
+      <group name="reg">
+        <method signature="TestNG006.RegRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.RegRun2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun2" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- reg -->
+      <group name="sanity">
+        <method signature="TestNG006.sanityRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.sanityRun1()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun1" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- sanity -->
+      <group name="preprod">
+        <method signature="TestNG006.RegRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.RegRun2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="RegRun2" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.sanityRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+        <method signature="TestNG006.sanityRun1()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" name="sanityRun1" class="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006"/>
+      </group> <!-- preprod -->
+    </groups>
+    <test started-at="2024-09-21T21:40:27 IST" name="Surefire test" finished-at="2024-09-21T21:40:40 IST" duration-ms="12898">
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012">
+        <test-method signature="hardAssertExample()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012@6221a451]" started-at="2024-09-21T21:40:31 IST" name="hardAssertExample" finished-at="2024-09-21T21:40:31 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012.hardAssertExample(Test012.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardAssertExample -->
+        <test-method signature="softAssertExample()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012@6221a451]" started-at="2024-09-21T21:40:31 IST" name="softAssertExample" finished-at="2024-09-21T21:40:31 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012.softAssertExample(Test012.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertExample -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test012 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration">
+        <test-method signature="test_update_request_put()[pri:1, instance:com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration@4a883b15]" started-at="2024-09-21T21:40:31 IST" name="test_update_request_put" finished-at="2024-09-21T21:40:34 IST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_request_put -->
+        <test-method signature="test_update_request_get()[pri:2, instance:com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration@4a883b15]" started-at="2024-09-21T21:40:34 IST" name="test_update_request_get" finished-at="2024-09-21T21:40:35 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_request_get -->
+        <test-method signature="test_delete_booking()[pri:3, instance:com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration@4a883b15]" started-at="2024-09-21T21:40:35 IST" name="test_delete_booking" finished-at="2024-09-21T21:40:39 IST" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_booking -->
+        <test-method signature="test_after_delete_request_get()[pri:4, instance:com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration@4a883b15]" started-at="2024-09-21T21:40:39 IST" name="test_after_delete_request_get" finished-at="2024-09-21T21:40:40 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_after_delete_request_get -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.CRUD.TestCaseIntegration -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011">
+        <test-method signature="test_post()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011@2e6a8155]" started-at="2024-09-21T21:40:29 IST" name="test_post" finished-at="2024-09-21T21:40:31 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.Assertions.Test011 -->
+      <class name="com.TheTestingAcademy.ex_15092024.testng.Test003">
+        <test-method is-config="true" signature="demo1()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:27 IST" name="demo1" finished-at="2024-09-21T21:40:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="demo2()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:27 IST" name="demo2" finished-at="2024-09-21T21:40:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method is-config="true" signature="demo3()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo3" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="demo4()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo4" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo5()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo5" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method is-config="true" signature="demo6()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo6" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+        <test-method is-config="true" signature="demo7()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo7" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo7 -->
+        <test-method is-config="true" signature="demo8()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo8" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo8 -->
+        <test-method is-config="true" signature="demo9()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test003@229c6181]" started-at="2024-09-21T21:40:40 IST" name="demo9" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo9 -->
+      </class> <!-- com.TheTestingAcademy.ex_15092024.testng.Test003 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009">
+        <test-method signature="test01()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009@25641d39]" started-at="2024-09-21T21:40:40 IST" name="test01" finished-at="2024-09-21T21:40:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test03()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009@25641d39]" started-at="2024-09-21T21:40:40 IST" name="test03" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG009 -->
+      <class name="com.TheTestingAcademy.ex_15092024.testng.Test001">
+        <test-method signature="test_get()[pri:0, instance:com.TheTestingAcademy.ex_15092024.testng.Test001@4686afc2]" started-at="2024-09-21T21:40:40 IST" name="test_get" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get -->
+      </class> <!-- com.TheTestingAcademy.ex_15092024.testng.Test001 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005">
+        <test-method signature="t2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005@6fdbe764]" started-at="2024-09-21T21:40:29 IST" name="t2" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method signature="t1()[pri:1, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005@6fdbe764]" started-at="2024-09-21T21:40:29 IST" name="t1" finished-at="2024-09-21T21:40:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method signature="t3()[pri:3, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005@6fdbe764]" started-at="2024-09-21T21:40:29 IST" name="t3" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG005 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006">
+        <test-method signature="RegRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="RegRun" finished-at="2024-09-21T21:40:29 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.RegRun(TestNG006.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegRun -->
+        <test-method signature="RegRun2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="RegRun2" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.RegRun2(TestNG006.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegRun2 -->
+        <test-method signature="SmokeRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="SmokeRun" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.SmokeRun(TestNG006.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokeRun -->
+        <test-method signature="SmokeRun3()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="SmokeRun3" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006.SmokeRun3(TestNG006.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokeRun3 -->
+        <test-method signature="sanityRun()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="sanityRun" finished-at="2024-09-21T21:40:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityRun -->
+        <test-method signature="sanityRun1()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006@2e3967ea]" started-at="2024-09-21T21:40:29 IST" name="sanityRun1" finished-at="2024-09-21T21:40:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityRun1 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG006 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007">
+        <test-method signature="serverStartedOk()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe]" started-at="2024-09-21T21:40:29 IST" name="serverStartedOk" finished-at="2024-09-21T21:40:29 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk(TestNG007.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serverStartedOk -->
+        <test-method signature="method1()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe]" started-at="2024-09-21T21:40:29 IST" name="method1" finished-at="2024-09-21T21:40:29 IST" depends-on-methods="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.method1() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe depends on not successfully finished methods 
+[com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.method1() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe depends on not successfully finished methods 
+[com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007.serverStartedOk() on instance com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007@a38c7fe]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG007 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008">
+        <test-method signature="demo1(java.lang.String)[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008@7b36aa0c]" started-at="2024-09-21T21:40:40 IST" name="demo1" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method demo1 but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method demo1 but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG008 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001">
+        <test-method signature="testcase01()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001@51c668e3]" started-at="2024-09-21T21:40:29 IST" name="testcase01" finished-at="2024-09-21T21:40:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase01 -->
+        <test-method signature="testcase02()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001@51c668e3]" started-at="2024-09-21T21:40:29 IST" name="testcase02" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001.testcase02(TestNG001.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase02 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG001 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003@52719fb6]" started-at="2024-09-21T21:40:27 IST" name="getToken" finished-at="2024-09-21T21:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method is-config="true" signature="getTokenAndBookingID()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003@52719fb6]" started-at="2024-09-21T21:40:27 IST" name="getTokenAndBookingID" finished-at="2024-09-21T21:40:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTokenAndBookingID -->
+        <test-method signature="testPUTReq()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003@52719fb6]" started-at="2024-09-21T21:40:31 IST" name="testPUTReq" finished-at="2024-09-21T21:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUTReq -->
+        <test-method signature="testPUTReq2()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003@52719fb6]" started-at="2024-09-21T21:40:31 IST" name="testPUTReq2" finished-at="2024-09-21T21:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUTReq2 -->
+        <test-method signature="testPUTReq3()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003@52719fb6]" started-at="2024-09-21T21:40:31 IST" name="testPUTReq3" finished-at="2024-09-21T21:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUTReq3 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG003 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004">
+        <test-method is-config="true" signature="getBookingID()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004@5d534f5d]" started-at="2024-09-21T21:40:27 IST" name="getBookingID" finished-at="2024-09-21T21:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingID -->
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004@5d534f5d]" started-at="2024-09-21T21:40:27 IST" name="getToken" finished-at="2024-09-21T21:40:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="test_PUT()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004@5d534f5d]" started-at="2024-09-21T21:40:29 IST" name="test_PUT" finished-at="2024-09-21T21:40:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PUT -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG004 -->
+      <class name="com.TheTestingAcademy.Test001">
+        <test-method signature="test_get()[pri:0, instance:com.TheTestingAcademy.Test001@3c7f66c4]" started-at="2024-09-21T21:40:27 IST" name="test_get" finished-at="2024-09-21T21:40:29 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get -->
+      </class> <!-- com.TheTestingAcademy.Test001 -->
+      <class name="com.TheTestingAcademy.Test002">
+        <test-method is-config="true" signature="demo1()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:27 IST" name="demo1" finished-at="2024-09-21T21:40:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="demo2()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:27 IST" name="demo2" finished-at="2024-09-21T21:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method is-config="true" signature="demo3()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo3" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="demo4()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo4" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo5()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo5" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method is-config="true" signature="demo6()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo6" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+        <test-method is-config="true" signature="demo7()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo7" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo7 -->
+        <test-method is-config="true" signature="demo8()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo8" finished-at="2024-09-21T21:40:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo8 -->
+        <test-method is-config="true" signature="demo9()[pri:0, instance:com.TheTestingAcademy.Test002@4d154ccd]" started-at="2024-09-21T21:40:40 IST" name="demo9" finished-at="2024-09-21T21:40:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo9 -->
+      </class> <!-- com.TheTestingAcademy.Test002 -->
+      <class name="com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010">
+        <test-method signature="test01()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010@3012646b]" started-at="2024-09-21T21:40:31 IST" name="test01" finished-at="2024-09-21T21:40:31 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010.test01(TestNG010.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test03()[pri:0, instance:com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010@3012646b]" started-at="2024-09-21T21:40:31 IST" name="test03" finished-at="2024-09-21T21:40:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+      </class> <!-- com.TheTestingAcademy.ex_21092024.testngexamples.TestNG010 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
